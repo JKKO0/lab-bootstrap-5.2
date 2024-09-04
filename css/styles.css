@@ -1,1 +1,59 @@
 /* Add custom css styles here */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    font-family: "Sitka Banner", serif;
+    background-image: url('../screenshots/coffee-biscuits.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+.header-content{
+    border-radius: 25px;
+    background: rgba(16,16,16, 0.5);
+    width: 30%;
+    padding: 10px;
+}
+.cookies-section{
+
+}
+.cookie-photo{
+    border-radius: 50%;
+}
+.col{
+    padding: 12px;
+}
+.row{
+    padding: 20px 0;
+}
+.about-section{
+    background-color: #F8F9FA;
+    margin: 0px;
+}
+.about-title{
+    padding: 20px 0px;
+}
+.about-description{
+    background-color: #F8F9FA;
+    margin: 0px;
+}
+.about-photo{
+    border-radius: 50%;
+    width: 60%;
+}
+
+footer {
+    background-color: #204478;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+footer div {
+    line-height: 1.6;
+}
